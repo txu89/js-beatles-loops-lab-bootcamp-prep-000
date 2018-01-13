@@ -2,10 +2,11 @@ function theBeatlesPlay(musicians, instruments) {
   let array = []
   let sentence = 0
   for (let i = 0; i < musicians.length; i++) {
-    for (j = 0; j < instruments.length; j++) {
+    for (let j = 0; j < instruments.length; j++) {
       array[++sentence] = `${musicians[i]} plays ${istruments[j]}`
     }
   }
+  return array
 }
 
 function johnLennonFacts(facts) {
@@ -14,6 +15,7 @@ function johnLennonFacts(facts) {
     facts[i] +='!!!'
     i++
   }
+  return facts
 }
 
 function iLoveTheBeatles(num) {
@@ -23,4 +25,5 @@ function iLoveTheBeatles(num) {
     array[++count] = "I love the Beatles!"
     num++
   } while (num < 15)
+  return array
 }
