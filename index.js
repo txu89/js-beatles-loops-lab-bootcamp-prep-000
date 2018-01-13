@@ -23,7 +23,7 @@ function iLoveTheBeatles(num) {
   let array = []
   let count = 0
   do {
-    array[++count] = "I love the Beatles!"
+    array[count++] = "I love the Beatles!"
     num++
   } while (num < 15)
   return array
