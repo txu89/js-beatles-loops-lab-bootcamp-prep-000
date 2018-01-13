@@ -3,8 +3,7 @@ function theBeatlesPlay(musicians, instruments) {
   let sentence = 0
   for (let i = 0; i < musicians.length; i++) {
     for (let j = 0; j < instruments.length; j++) {
-      array[sentence] = `${musicians[i]} plays ${instruments[j]}`
-      sentence++
+      array[sentence++] = `${musicians[i]} plays ${instruments[j]}`
     }
   }
   return array
